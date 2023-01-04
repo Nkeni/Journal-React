@@ -1,0 +1,19 @@
+.container {
+  .row {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid yellow;
+    min-height: calc(100vh - 80px);
+
+    .posts {
+      //   padding: 0;
+      height: 50vh;
+      display: flex;
+      align-items: center;
+    }
+
+    .lists {
+      //   padding: 0;
+    }
+  }
+}
