@@ -1,0 +1,31 @@
+.edit {
+  min-height: calc(100vh - 50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  input {
+    width: 700px;
+    height: 50px;
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .edit-stuff {
+    button {
+      margin-left: 1rem;
+      border: 2px solid gray;
+      border-radius: 0.3rem;
+      padding: 0.5rem;
+    }
+
+    .confirm {
+      background-color: green;
+    }
+
+    .cancel {
+      background-color: red;
+    }
+  }
+}

@@ -37,12 +37,12 @@ navigate("/journal")
 }
 
   return (
-    <div>
+    <div className="edit">
       <input type="text" ref={inputValue} defaultValue={findTheTask.text}/>
 {/* required works only in bootstrap */}
-      <div>
-        <NavLink to="/journal"><button onClick={confirmHandler} >confirm</button></NavLink>
-        <NavLink to="/journal"><button>cancel</button></NavLink>
+      <div className="edit-stuff">
+        <NavLink to="/journal"><button className="confirm" onClick={confirmHandler} >confirm</button></NavLink>
+        <NavLink to="/journal"><button className="cancel">cancel</button></NavLink>
       </div>
     </div>
   )

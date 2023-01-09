@@ -2,7 +2,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import Button from 'react-bootstrap/Button';
 import { useContext} from 'react';
 import { PostContext } from '../../PostContext';
-import { NavLink } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 
 import "./posts.scss"
 
