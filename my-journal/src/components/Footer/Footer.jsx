@@ -2,8 +2,8 @@ import "./footer.scss"
 
 function Footer() {
   return (
-    <div>
-      <p>Agatha Kyeyune</p>
+    <div className="footer">
+      <p> &copy; Agatha A Msola 2022 | All rights reserved</p>
     </div>
   )
 }

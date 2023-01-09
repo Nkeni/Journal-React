@@ -8,7 +8,7 @@ import "./header.scss"
 function Header() {
   return (
   
-       <Navbar bg="light" expand="lg" >
+       <Navbar bg="light" expand="lg" fixed="top" >
 <Container>
 <Navbar.Brand as={Link} to="/">AG</Navbar.Brand>
 <Navbar.Toggle aria-controls="basic-navbar-nav" />

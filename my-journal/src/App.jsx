@@ -5,6 +5,7 @@ import Home from './components/Home/Home.jsx';
 import Journal from './components/Journal/Journal.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import Edit from './components/Edit/Edit.jsx';
 
 function App() {
   return (
@@ -14,7 +15,11 @@ function App() {
       <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/home' element={<Home/>}/>
-      <Route path='/journal' element={<Journal/>}/>
+    
+      <Route path='/journal'>
+      <Route index element={<Journal/>}/>
+      <Route path=":id" element={<Edit/>}/>
+      </Route>
       </Routes>
       <Footer/>
       </BrowserRouter>

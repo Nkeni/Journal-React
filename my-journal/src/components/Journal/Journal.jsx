@@ -1,4 +1,4 @@
-import {Form, FormControl,Button, Container,Row,Col} from 'react-bootstrap';
+import {Form, FormControl,Button, Container,Row} from 'react-bootstrap';
 import Posts from '../Posts/Posts.jsx';
 import { useContext,useRef } from 'react';
 import { PostContext } from '../../PostContext.jsx';
@@ -30,27 +30,28 @@ const submitHandler=e=>{
 }
   return (
 
-    <Container className='container'>
+    <Container className='wrapper'>
    
-         <Row className='row'>
+         <Row className='row1'>
          
-             <Col className='posts' xl="4">
+             
              
                  <Form onSubmit={submitHandler} className='todo-form' required>
                  <h2>Create a post</h2>
                  {/* <Form.Label>Tasks</Form.Label> */}
-                 <FormControl ref={inputValue} className='todo-input' type="text" placeholder="write something..." required/>
-                 <FormControl  ref={inputDate} type="date" placeholder="day" required/>
+                 <FormControl ref={inputValue} className='todo-input' type="text" placeholder="journal entry..." required/>
+                 <FormControl  ref={inputDate} className="todo-date" type="date"  required/>
                  <Button type="submit" className='add' variant="success">Add</Button>{' '}
                  <Button  className='back'  variant="info">Back</Button>{' '}
                  </Form>
-             </Col>
-             
-<Col className='lists' xl="7">
+            
+             </Row>
 
-    <Posts/></Col>
-        
-         </Row>
+             <Row className='row2'>
+            
+              <Posts/>
+           
+              </Row>
 </Container>
   )
 }
