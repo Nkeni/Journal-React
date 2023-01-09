@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Journal-React/static/css/main.1b45f2e5.css",
-    "main.js": "/Journal-React/static/js/main.76895176.js",
+    "main.css": "/Journal-React/static/css/main.5267fa11.css",
+    "main.js": "/Journal-React/static/js/main.5c9814d3.js",
     "static/js/787.2b24d085.chunk.js": "/Journal-React/static/js/787.2b24d085.chunk.js",
     "static/media/bg.jpg": "/Journal-React/static/media/bg.a7368755420037692137.jpg",
     "index.html": "/Journal-React/index.html",
-    "main.1b45f2e5.css.map": "/Journal-React/static/css/main.1b45f2e5.css.map",
-    "main.76895176.js.map": "/Journal-React/static/js/main.76895176.js.map",
+    "main.5267fa11.css.map": "/Journal-React/static/css/main.5267fa11.css.map",
+    "main.5c9814d3.js.map": "/Journal-React/static/js/main.5c9814d3.js.map",
     "787.2b24d085.chunk.js.map": "/Journal-React/static/js/787.2b24d085.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b45f2e5.css",
-    "static/js/main.76895176.js"
+    "static/css/main.5267fa11.css",
+    "static/js/main.5c9814d3.js"
   ]
 }
