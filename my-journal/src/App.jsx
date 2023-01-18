@@ -20,7 +20,7 @@ function App() {
             <Route index element={<Journal />} />
             <Route path=":id" element={<Edit />} />
           </Route>
-          <Route path="/*" element={<NotFound />} />
+          {/* <Route path="/*" element={<NotFound />} /> */}
         </Routes>
         <Footer />
       </BrowserRouter>
