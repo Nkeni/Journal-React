@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Journal-React/static/css/main.5267fa11.css",
-    "main.js": "/Journal-React/static/js/main.54f346ba.js",
+    "main.js": "/Journal-React/static/js/main.a8a77ffd.js",
     "static/js/787.2b24d085.chunk.js": "/Journal-React/static/js/787.2b24d085.chunk.js",
     "static/media/bg.jpg": "/Journal-React/static/media/bg.a7368755420037692137.jpg",
     "index.html": "/Journal-React/index.html",
     "main.5267fa11.css.map": "/Journal-React/static/css/main.5267fa11.css.map",
-    "main.54f346ba.js.map": "/Journal-React/static/js/main.54f346ba.js.map",
+    "main.a8a77ffd.js.map": "/Journal-React/static/js/main.a8a77ffd.js.map",
     "787.2b24d085.chunk.js.map": "/Journal-React/static/js/787.2b24d085.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5267fa11.css",
-    "static/js/main.54f346ba.js"
+    "static/js/main.a8a77ffd.js"
   ]
 }
