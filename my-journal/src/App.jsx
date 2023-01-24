@@ -11,7 +11,7 @@ import NotFound from "./components/NotFound/NotFound.jsx";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/Journal-React">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
